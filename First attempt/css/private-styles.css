@@ -1,0 +1,239 @@
+/* This is the CSS for the home page and the header,body and footer which are e suposed 
+to be with the same style at all pages */ 
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,cyrillic-ext);
+
+body {
+	background-image: -ms-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -moz-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -o-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(, #D0C8D4), color-stop(, #D0C8B4));
+	background-image: -webkit-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: linear-gradient(to left, #D0C8D4 0%, #D0C8B4 0%);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+h1 {
+	font-size:1.8em;
+	font-family: 'Lobster', cursive;
+}
+
+h2 {
+	font-size:1.6em;
+	font-family: 'Lobster', cursive;
+}
+
+#logo{
+  max-width:100%;
+  height: auto; 
+}
+
+#homepage-header {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#header-text {
+	font-family: 'Lobster', cursive;
+	font-size: 1.8em;
+	color: #6C331F;
+	text-align: center;
+	word-wrap: break-word;
+	padding-top: 15px;
+}
+
+#header-subtext {
+	font-family: 'Lobster', cursive;
+	font-size: 0.5em;
+	color: #4C7576;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+#cover-image {
+   border: 1px solid #681F09;
+   border-bottom: none;
+   border-top: none;
+}
+
+#cover-image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border: 3px solid #D0C8B4;
+}
+
+.navbar-toggle {
+	background-color: white !important;
+}
+
+.navbar-toggle:hover {
+	background-color: #DEBF8B !important;
+}
+
+.navbar-fixed-top {
+    position: relative;
+    top: auto;
+ }
+
+
+#navigation {
+    font-size: 1.3em;
+    border: 1px solid #681F09 !important;
+    border-bottom: none !important;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-bottom: -20px;
+}
+
+nav.navbar {
+	padding: 20px;
+	background-image: -ms-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -moz-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -o-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(, #AB5A25), color-stop(, #AB5A40)) !important;
+	background-image: -webkit-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: linear-gradient(to bottom, #AB5A25 0%, #AB5A40 0%) !important;
+}
+
+nav.navbar ul li a {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+
+nav.navbar ul li:hover a {
+	color: #6C331F !important;
+	font-size: 1.2em !important;
+	background-image: -ms-linear-gradient(right, #DEBF8B 0%, #DEBF8E 0%) !important;
+	background-image: -moz-linear-gradient(right, #DEBF8B 0%, #DEBF8E 0%) !important;
+	background-image: -o-linear-gradient(right, #DEBF8B 0%, #DEBF8E 0%) !!important;
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(, #DEBF8B), color-stop(, #DEBF8E)) !!important;
+	background-image: -webkit-linear-gradient(right, #DEBF8B 0%, #DEBF8E 0%) !important;
+	background-image: linear-gradient(to left, #DEBF8B 0%, #DEBF8E 0%) !important;
+	border-radius: 5px;	 
+}
+
+img.img-thumbnail {
+	background-image: -ms-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -moz-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -o-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(, #D0C8D4), color-stop(, #D0C8B4));
+	background-image: -webkit-linear-gradient(right, #D0C8D4 0%, #D0C8B4 0%);
+	background-image: linear-gradient(to left, #D0C8D4 0%, #D0C8B4 0%);
+}
+
+section {
+	border: 1px solid #681F09;
+	border-top: none;
+	border-bottom: none;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #681F09;
+	border-top: none !important;
+	background-image: -ms-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -moz-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -o-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(, #AB5A25), color-stop(, #AB5A40)) !important;
+	background-image: -webkit-linear-gradient(top, #AB5A25 0%, #AB5A40 0%) !important;
+	background-image: linear-gradient(to bottom, #AB5A25 0%, #AB5A40 0%) !important;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+footer a {
+	font-size: 1.2em;
+	color: black;
+	font-weight: bolder;
+}
+
+footer a:hover {
+	color: white !important; 
+}
+
+#disclaimer {
+	color: black;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/* This is the CSS for the SoftLooney and Other Stuff section */
+
+section div.basic-effects {
+	padding: 5px;
+}
+
+section a.basic-effects:hover {
+	text-decoration: underline !important;
+}
+
+section h2.basic-effects {
+	font-family: 'Lobster', cursive;
+	font-size: 1.9em;
+	color:#6C331F !important;
+}
+
+section h2.basic-effects:hover {
+	color:#4C7576 !important;
+}
+
+section img.basic-effects {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+section img.basic-effects:hover {
+	opacity: 0.6;
+}
+
+section p.basic-effects {
+	padding-top: 10px;
+	text-align: justify;
+}
+
+@media all and (max-width: 992px) {
+ 	#soflooney-section img.basic-effects {
+ 		width: 50%;
+ 	}
+}
+
+@media all and (max-width: 768px) {
+ 	header {
+ 		display: none !important;
+ 	}
+
+ 	#soflooney-section img.basic-effects {
+ 		width: 100%;
+ 	}
+
+ 	#mainContainer {
+ 		font-size: 14px;
+ 	}
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-fixed-top {
+	    position:fixed;
+	    top: 0;
+    }
+
+    section.row {
+    	margin-top: 100px;
+    }
+
+    #cover-image {
+    	margin-top: 100px;
+    	margin-bottom: -70px;
+    }
+}
